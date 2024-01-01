@@ -49,7 +49,7 @@ def generate_password():
     gen_pass.set(password)
     password_entry.config(textvariable=gen_pass)
 
-    # Alternate solution without StringVar() but through For Loops
+    # Alternate solution without StringVar()
     # password_entry.insert(0, password)
 
     pyperclip.copy(gen_pass)
